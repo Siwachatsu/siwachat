@@ -158,9 +158,9 @@ public class appatm extends javax.swing.JFrame {
         // TODO add your handling code here:
         int state;
         state = jComboBox1.getSelectedIndex();
-        double num = Double.parseDouble(money.getText());
-        double result = port.bankservice(num,state);
-            juse.setText(String.valueOf(num));
+        double numm = Double.parseDouble(money.getText());
+        double result = port.bankservice(numm,state);
+            juse.setText(String.valueOf(numm));
             list.setText(String.valueOf(jComboBox1.getSelectedItem()));
             jtotal.setText(String.valueOf(result));
     }//GEN-LAST:event_jButton1ActionPerformed
